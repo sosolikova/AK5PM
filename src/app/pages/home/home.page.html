@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Moje stáj</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list color="success">
+    <ion-item color="success">
+      <ion-avatar slot="start">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13-CtzcMhwu9Gzg7_k9cWvtE7TcpQCyv5Ug&usqp=CAU "/>
+      </ion-avatar>
+      <ion-label>
+        <p>Katka Slavíková</p>
+        <p>Bláznivka <span class="vyskaSkoku>"> 70 cm</span></p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Poslední závody</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item lines="nones">
+        <ion-icon name="ribbon-outline" slot="start" color="warning"></ion-icon>
+        <ion-label>
+          Břeclav
+          <p>15.12.2022</p>
+        </ion-label>
+      </ion-item>
+      <ion-button color="success" fill="clear" size="full">více informací</ion-button>
+    </ion-card-content>
+  </ion-card>  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Přihlášené závody</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item lines="nones">
+        <ion-icon name="sparkles-outline" slot="start" color="warning"></ion-icon>
+        <ion-label>
+          Kroměříž
+          <p>10.2.2023</p>
+        </ion-label>
+      </ion-item>
+      <ion-button color="success" fill="clear" size="full">více informací</ion-button>
+    </ion-card-content>
+  </ion-card> 
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="success">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
