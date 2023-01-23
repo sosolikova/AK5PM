@@ -1,9 +1,27 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>pickup-call</ion-title>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Vyzvednutí</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <img src="https://www.google.com/maps/vt/data=L0rX98lSAF-3PwMtCnj6RUmtw5z7jTDpFvt0Kd0oRD9LFNLhZmrCGe3LuGOiLU9c0DRknAuD5nGi2uGrH6myu7-MFOtDk7DXj-Ouq6IojdIxTdOIr744gpWuBP2_J3-Q492Va2wDj79AP56-S4NfNWcBs_KoxOB5MCrbe0Ry36-kheEHYH2O_OPL6lBX58cGnuyGlfGvLgMNVbDyj13pu6urLomLG3RUvzQdKEfhUfmZbNTtezA"/>
+  <ion-card>
+    <ion-card-content>
+      <p>Aresa: Vymyšlená, 12</p>
+      <p>Městská část: Zálešná</p>
+      <p>PSČ: 760 01</p>
+      <p>Město: Zlín</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Poznámky</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button size="full" color="success">Vytvoř vyzvednutí</ion-button>
 </ion-content>
