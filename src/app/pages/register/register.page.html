@@ -1,5 +1,8 @@
 <ion-header>
   <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button title=""></ion-back-button>
+    </ion-buttons>
     <ion-title>Registrace</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -7,16 +10,16 @@
 <ion-content>
   <ion-card>
     <ion-card-header>
-      <ion-card-title>Jako co se chceš registrovat?</ion-card-title>
+      <ion-card-title>Chceš koupit nebo prodat koníka?</ion-card-title>
     </ion-card-header>
       <ion-radio-group >
         <ion-item>
-          <ion-label>Hobík</ion-label>
+          <ion-label>Koupit hobíka</ion-label>
           <ion-radio value="CLIENT" slot="start"></ion-radio>
         </ion-item>
     
         <ion-item>
-          <ion-label>Pořadatel závodů</ion-label>
+          <ion-label>Prodat hobíka</ion-label>
           <ion-radio value="PARTNER" slot="start"></ion-radio>
         </ion-item>
       </ion-radio-group>
