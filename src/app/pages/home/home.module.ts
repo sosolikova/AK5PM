@@ -17,8 +17,7 @@ import { PickupCallCardComponent } from 'src/app/components/pickup-call-card/pic
     HomePageRoutingModule
   ],
   declarations: [
-    HomePage,
-    PickupCallCardComponent
+    HomePage
   ]
 })
 export class HomePageModule {}

@@ -19,17 +19,22 @@
       </ion-label>
     </ion-item>
   </ion-list>
-
-  <app-pickup-call-card status="hold" updateAt="25.1.2023" createAt="24.1.2023" 
-  notes="koník má odlehčenou konstrukci a neprotáčí se tyč">
-    <ion-card-header header>
-      <ion-card-subtitle>Last pickup call</ion-card-subtitle>
-    </ion-card-header>
-    <ion-button color="success" fill="clear" size="full" footer (click)="goToPickupCalls()">
-      See all...
-    </ion-button>
-  </app-pickup-call-card>
-
+</ion-content>
+<ion-content>
+  <ion-card
+     status="hold" updateAt="25.1.2023" createAt="24.1.2023" 
+    notes="koník má odlehčenou konstrukci a neprotáčí se tyč">
+    <ion-card-content>
+        <ion-card-header header>
+          <ion-card-subtitle>Last pickup call</ion-card-subtitle>
+        </ion-card-header>
+        <ion-button color="success" fill="clear" size="full" footer (click)="goToPickupCalls()">
+          See all...
+        </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+<ion-content>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button color="success" (click)="newPickupCall()" >
       <ion-icon name="add"></ion-icon>
