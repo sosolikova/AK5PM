@@ -31,6 +31,6 @@ describe('PickupCallPage', () => {
   it('should go to home on create new pickup call',() =>{
     spyOn(router, 'navigate');
     component.newPickupCall()
-    expect(router.navigate).toHaveBeenCalledWith(['home']);
+    expect(router.navigate).toHaveBeenCalledWith(['pickup-calls']);
   })
 });
