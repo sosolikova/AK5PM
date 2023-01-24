@@ -11,10 +11,10 @@
   <ion-list color="success">
     <ion-item color="success">
       <ion-avatar slot="start">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13-CtzcMhwu9Gzg7_k9cWvtE7TcpQCyv5Ug&usqp=CAU "/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkpkc9WaZX7uksz40RLIJyC3-FK2FOkUxchA&usqp=CAU"/>
       </ion-avatar>
       <ion-label>
-        <p>Katka Slavíková</p>
+        <p>Lucka Slavíková</p>
         <p>Nejvyšší skok: <span class="nejvyssiSkok>"> 70 cm</span></p>
       </ion-label>
     </ion-item>
@@ -42,9 +42,10 @@
           <p>Koníka mám od: 24.12.2022</p>
         </ion-label>
       </ion-item>
-      <ion-button color="success" fill="clear" size="full" footer (click)="goToPickupCalls()">
-          Do stáje ...
-      </ion-button>
+
+      <ion-button color="success" size="full" footer >
+        Začít trénovat ...
+    </ion-button>
     </ion-card-content>
   </ion-card>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
@@ -52,4 +53,8 @@
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>
+  <ion-button color="success" fill="clear" size="full" footer (click)="goToPickupCalls()">
+    Do stáje ...
+  </ion-button>
 </ion-content>
+
