@@ -3,25 +3,29 @@
     <ion-buttons slot="start">
       <ion-back-button text=""></ion-back-button>
     </ion-buttons>
-    <ion-title>Vyzvednutí</ion-title>
+    <ion-title>Nový koník</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <img src="https://www.google.com/maps/vt/data=L0rX98lSAF-3PwMtCnj6RUmtw5z7jTDpFvt0Kd0oRD9LFNLhZmrCGe3LuGOiLU9c0DRknAuD5nGi2uGrH6myu7-MFOtDk7DXj-Ouq6IojdIxTdOIr744gpWuBP2_J3-Q492Va2wDj79AP56-S4NfNWcBs_KoxOB5MCrbe0Ry36-kheEHYH2O_OPL6lBX58cGnuyGlfGvLgMNVbDyj13pu6urLomLG3RUvzQdKEfhUfmZbNTtezA"/>
-  <ion-card>
-    <ion-card-content>
-      <p>Aresa: Vymyšlená, 12</p>
-      <p>Městská část: Zálešná</p>
-      <p>PSČ: 760 01</p>
-      <p>Město: Zlín</p>
-    </ion-card-content>
-  </ion-card>
-  <ion-list>
-    <ion-item lines="inset">
-      <ion-label position="floating">Poznámky</ion-label>
-      <ion-textarea></ion-textarea>
-    </ion-item>
-  </ion-list>
-  <ion-button size="full" color="success" (click)="newPickupCall()">Vytvoř vyzvednutí</ion-button>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42j0T_z4iimu61Fids_m6DvxgG0gc9dKs7w&usqp=CAU" />
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Jméno koníka</ion-label>
+        <ion-input placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Od kdy ho mám</ion-label>
+        <ion-input placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Jak se ke mě dostal</ion-label>
+        <ion-input placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item lines="inset">
+        <ion-label position="floating">Poznámky</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+    </ion-list>
+  <ion-button size="full" color="success" (click)="newPickupCall()">Přidej koníka do stáje</ion-button>
 </ion-content>
